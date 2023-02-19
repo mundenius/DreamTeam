@@ -13,15 +13,16 @@ public abstract class individual8 {
 	
 	// Arraylists para guardar los datos
 	static ArrayList<String> nombreAlumnos = new ArrayList<String>(); 
-	static ArrayList<Integer> notaAlumnos = new ArrayList <Integer>(); 
+	static ArrayList<Double> notaAlumnos = new ArrayList <Double>(); 
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		agregarNombre();
-		mostrarDatos(nombreAlumnos, notaAlumnos); 
-		promedioNotas(notaAlumnos);
-		int notaMinyMax = mostrarNotaMin(nombreAlumnos, notaAlumnos, mostrarNotaMax(nombreAlumnos, notaAlumnos));
-		System.out.println(notaMinyMax);
+		agregarNombre();		//aqui se llama la primera funcion que es agregar el nombre de los estudiantes
+		mostrarDatos(nombreAlumnos, notaAlumnos); //una vez se agregan todos los nombres, se ejecuta esta funcion que muestra todos los datos
+		promedioNotas(notaAlumnos); // esta funcion saca el promedio de las notas del arraylist
+		double notaMinyMax = mostrarNotaMin(nombreAlumnos, notaAlumnos, mostrarNotaMax(nombreAlumnos, notaAlumnos)); 
+		//se crea un objeto que llama las funciones de nota minima y maxima, y las busca dentro de los arraylist declarados
+		System.out.println(notaMinyMax); // se muestra en consola el objeto creado anteriormente
 	}
 	
 	// funcion para agregar los nombres
@@ -36,14 +37,14 @@ public abstract class individual8 {
 			else if (nombres.length() == 0) {
 				System.out.println("No puede estar vacío");
 			} 
-			else if (nombres == "SALIR" && nombreAlumnos.size()<1 ){
+			else if (nombres.equals(exitStudent) && nombreAlumnos.size()<1 ){ //aqui se verifica que exista al menos 1 estudiante registrado
 				System.out.println("Debe ingresar al menos 1 alumno");					
 			}
-			else if (nombres.equals("SALIR")) {
+			else if (nombres.equals("SALIR")) { // se verifica que se escriba SALIR y manda directo a la funcion mostrar datos
 				mostrarDatos(nombreAlumnos, notaAlumnos);
 			}
-			else {
-				agregarNotas();
+			else {	// al no cumplirse las otras condiciones, se pasa a la funcion de agregar notas del alumno recien ingresado
+				agregarNotas(); 
 			}
 		}
 		while(nombres.trim().length()==0 || nombres == null || nombreAlumnos.size()<1 || !nombres.equals("SALIR"));
@@ -52,9 +53,9 @@ public abstract class individual8 {
 	//funcion para agregar las notas
 	public static void agregarNotas() {
 		do {	
-			System.out.println("Ingrese nota: ");
+			System.out.println("Ingrese nota: " + "(" + nombres + ")");
 			notas = sc.nextLine(); 
-			if (Integer.parseInt(notas) < 1) {
+			if (Double.parseDouble(notas) < 1) {
 				System.out.println("No puede valer 0");
 			}
 			else if (notas == "") {
@@ -63,24 +64,25 @@ public abstract class individual8 {
 			else if (notas.length() == 0) {
 				System.out.println("No puede estar vacío");
 			}
-			else if (!notas.matches("^[1-7]$")) {
+			else if (!notas.matches("^[1-7]$")) {	// se verifica que sea una nota valida
 				System.out.println("Ingrese un valor entre 1 y 7");
 			}
-			else {
+			else {	// se guardan los datos en el arraylist si todo esta correcto
 				guardarDatos();
 		}
 		}
 			while(notas.length() == 0);
 			
+		// funcion para guardar los datos que se ingresan en las funciones anteriores
 	}
 	public static void guardarDatos() {
 		nombreAlumnos.add(nombres);
-		notaAlumnos.add(Integer.parseInt(notas));
+		notaAlumnos.add(Double.parseDouble(notas));
 		contador++;
 	}
 	
 	//funcion para mostrar los datos recolectados
-	public static void mostrarDatos (ArrayList<String>nombreAlumnos, ArrayList<Integer>notaAlumnos) {
+	public static void mostrarDatos (ArrayList<String>nombreAlumnos, ArrayList<Double>notaAlumnos) {
 		System.out.println(nombreAlumnos);
 		System.out.println(notaAlumnos);
 		for(int i = 0; i < nombreAlumnos.size(); i++) {
@@ -89,9 +91,9 @@ public abstract class individual8 {
 	}
 	
 	//funcion para calcular el promedio
-	static int nota = 0;
+	static double nota = 0;
 	static double promedio = 0;
-	public static void promedioNotas(ArrayList<Integer>notaAlumnos) {
+	public static void promedioNotas(ArrayList<Double>notaAlumnos) {
 		for(int i = 0; i < notaAlumnos.size();i++) {
 			nota += notaAlumnos.get(i);
 		}
@@ -100,8 +102,8 @@ public abstract class individual8 {
 	}
 	
 	// funcion para buscar la nota maxima y el nombre del alumno
-	private static int mostrarNotaMax(ArrayList<String>nombreAlumnos, ArrayList<Integer>notaAlumnos) { 
-		int notaMax = 0;
+	private static double mostrarNotaMax(ArrayList<String>nombreAlumnos, ArrayList<Double>notaAlumnos) { 
+		double notaMax = 0;
 		String nombreMax = "";
 		for(int i = 0; i < nombreAlumnos.size();i++) {
 			if(notaMax <= notaAlumnos.get(i)) {
@@ -109,12 +111,12 @@ public abstract class individual8 {
 				nombreMax = nombreAlumnos.get(i);
 			}
 		}
-		System.out.println(nombreMax + " Obtuvo máxima calificación con: " + notaMax);
+		System.out.println(nombreMax + " Obtuvo la máxima calificación con: " + notaMax);
 		return notaMax;
 	}
 	//funcion para buscar la nota minima y el nombre del alumno
-	private static int mostrarNotaMin(ArrayList<String>nombreAlumnos, ArrayList<Integer>notaAlumnos, int notaMax) {
-		int notaMin = 0;
+	private static double mostrarNotaMin(ArrayList<String>nombreAlumnos, ArrayList<Double>notaAlumnos, double notaMax) {
+		double notaMin = 0;
 		String nombreMin = "";
 		for(int i = 0; i < nombreAlumnos.size(); i++) {
 			if(notaMax >= notaAlumnos.get(i)) {
@@ -123,8 +125,8 @@ public abstract class individual8 {
 			}
 		}
 		
-		System.out.println("" + nombreMin + " obtuvo la calificaión mínima de: " + notaMin);
-		return notaMin;
+		System.out.println("" + nombreMin + " obtuvo la calificación mínima de: " + notaMin);
+		return notaMin ;
 	}
 }
-	
+	// coded by DreamTeam
