@@ -116,16 +116,16 @@ public abstract class individual8 {
 	}
 	//funcion para buscar la nota minima y el nombre del alumno
 	private static double mostrarNotaMin(ArrayList<String>nombreAlumnos, ArrayList<Double>notaAlumnos, double notaMax) {
-		double notaMin = 0;
+		double notaMin = Integer.MAX_VALUE;
 		String nombreMin = "";
 		for(int i = 0; i < nombreAlumnos.size(); i++) {
-			if(notaMax >= notaAlumnos.get(i)) {
+			if(notaMin >= notaAlumnos.get(i)) {
 				notaMin = notaAlumnos.get(i);
 				nombreMin = nombreAlumnos.get(i);
 			}
 		}
 		
-		System.out.println("" + nombreMin + " obtuvo la calificación mínima de: " + notaMin);
+		System.out.print("" + nombreMin + " obtuvo la calificación mínima de: ");
 		return notaMin ;
 	}
 }

@@ -63,7 +63,7 @@ public class individual9 {
 			return promedio;
 		}
 		
-		// funcion para buscar la nota maxima
+		// funcion para buscar el numero maximo
 		public static int numeroMax(ArrayList<Integer>paqueteNumeros) { 
 			int numeroMax = 0;
 			for(int i = 0; i < paqueteNumeros.size();i++) {
@@ -74,7 +74,7 @@ public class individual9 {
 			System.out.println("El número máximo fue: " + numeroMax);
 			return numeroMax;
 		}
-		//funcion para buscar la nota minima y el nombre del alumno
+		//funcion para buscar el numero minimo
 		public static int numeroMin(ArrayList<Integer>paqueteNumeros, int numeroMax) {
 			int numeroMin = Integer.MAX_VALUE;
 			for(int i = 0; i < paqueteNumeros.size(); i++) {
