@@ -115,22 +115,3 @@ public class individual9 {
 			System.out.println("Promedio de los Numeros Impares ingresados es: " + promedio);
 			}
 }
-	
-			
-//			for (int i = 0; i < paqueteNumeros.size(); i++)	{
-//				int elemento = paqueteNumeros.get(i);
-//
-//            if (elemento % 2 == 0) {
-//                System.out.println(elemento + " es par");
-//                paqueteNumeros.remove(i);
-//                i--;
-//            }
-//            else if(elemento % 2 != 0)	{
-//                System.out.println(elemento + " es impar");
-//                
-//            }
-	
-//	if elemento resto 2 es par
-//	elemento /2 != 0 => impar
-//	
-//}
