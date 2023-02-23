@@ -1,15 +1,20 @@
+/** version 21/02/2023*/
 package ejercicio10;
 
+/** se crea la clase */
 public class Trabajadores {
+	/** se definen los atributos de la clase*/
 		private String nombres; 
 		private String apellidos; 
 		private String run;
 		private int telefono; 
 		private int edad; 
 		
+		/**  metodo constructor vacio */
 	public Trabajadores() {
 		
 	}
+	/** metodo constructor con los atributos*/
 	public Trabajadores(String nombres, String apellidos, String run, int telefono, int edad) {
 		this.nombres = nombres;
 		this.apellidos = apellidos; 
@@ -18,22 +23,29 @@ public class Trabajadores {
 		this.edad = edad;
 		
 	}
-
+/** se definen los setters  */
+	/** @param nombre*/
 	public void setNombre(String nombres) {
 		this.nombres = nombres;
 	}
+	/** @param apellidos*/
 	public void setApellidos(String apellidos) {
 		this.apellidos = apellidos; 
 	}
+	/** @param run*/
 	public void setRun(String run) {
 		this.run = run;
 	}
+	/** @param telefono*/
 	public void setTelefono(int telefono) {
 		this.telefono = telefono;
 	}
+	/** @param edad*/
 	public void setEdad(int edad) {
 		this.edad = edad; 	
 	}
+	
+	/** se definen los getters */
 	public String getNombre() {
 		return this.nombres;
 	}
