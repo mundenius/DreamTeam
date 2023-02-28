@@ -12,6 +12,8 @@ public class Oviparo extends Animal {
 	
 	public Oviparo(int numExtremidades, String especie, String tipoAlimentacion, boolean esVertebrado, String medioTransporte) {
 		super(numExtremidades,especie,tipoAlimentacion);
+		this.esVertebrado = esVertebrado;
+		this.medioTransporte = medioTransporte;
 	}
 	
 	
@@ -44,6 +46,6 @@ public class Oviparo extends Animal {
 	
 	@Override
 	public void esDomestico() {
-		System.out.println("Sin contar los de granja, la mayoria no son domesticables");
+		System.out.println("Sin contar los de granja, la mayoria no son domesticables.");
 	}
 }
