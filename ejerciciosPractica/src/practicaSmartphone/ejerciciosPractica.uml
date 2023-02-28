@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_WWxfgLQ-Ee29d62A2QG_IA" name="ejerciciosPractica">
+    <eAnnotations xmi:id="_WaW_ALQ-Ee29d62A2QG_IA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_WaW_AbQ-Ee29d62A2QG_IA" source="codegen">
+        <details xmi:id="_WaW_ArQ-Ee29d62A2QG_IA" key="codegenDirectory" value="/ejerciciosPractica/src"/>
+        <details xmi:id="_Wp4owLQ-Ee29d62A2QG_IA" key="AssociatedSourceCode" value="/ejerciciosPractica/src/practicaBenjaEj9/Practica9.java;335766553/1;/ejerciciosPractica/src/practicaSmartphone/Bateria.java;414501803/1;/ejerciciosPractica/src/practicaSmartphone/Chip.java;3449570886/1;/ejerciciosPractica/src/practicaSmartphone/Main.java;1986607673/1;/ejerciciosPractica/src/practicaSmartphone/Smartphone.java;3753561190/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Wk7QQLQ-Ee29d62A2QG_IA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_Wk7QQbQ-Ee29d62A2QG_IA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_Wk7QQrQ-Ee29d62A2QG_IA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_Wk7QQ7Q-Ee29d62A2QG_IA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Wk7QRLQ-Ee29d62A2QG_IA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_Wk7QRbQ-Ee29d62A2QG_IA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_Wk73ULQ-Ee29d62A2QG_IA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Wk73UbQ-Ee29d62A2QG_IA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Wk73UrQ-Ee29d62A2QG_IA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Wk-TkLQ-Ee29d62A2QG_IA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Wk-6oLQ-Ee29d62A2QG_IA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_WmbFELQ-Ee29d62A2QG_IA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WmcTMLQ-Ee29d62A2QG_IA" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WlDzILQ-Ee29d62A2QG_IA" name="practicaBenjaEj9">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WlX8MLQ-Ee29d62A2QG_IA" name="Practica9">
+        <ownedAttribute xmi:id="_WmldILQ-Ee29d62A2QG_IA" name="lista" visibility="package" isStatic="true" type="_WmbFELQ-Ee29d62A2QG_IA" association="_WnBiALQ-Ee29d62A2QG_IA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WmmrQLQ-Ee29d62A2QG_IA" value="new ArrayList&lt;Integer>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WmnSULQ-Ee29d62A2QG_IA" name="capturador" visibility="package" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WmnSUbQ-Ee29d62A2QG_IA" value="&quot;&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WmnSU7Q-Ee29d62A2QG_IA" name="numeros" visibility="package" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Wmn5YLQ-Ee29d62A2QG_IA" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Wmn5YrQ-Ee29d62A2QG_IA" name="promedio" visibility="package" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Wmn5Y7Q-Ee29d62A2QG_IA" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WmogcbQ-Ee29d62A2QG_IA" name="numeroMax" visibility="package" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WmogcrQ-Ee29d62A2QG_IA" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WmogdLQ-Ee29d62A2QG_IA" name="numeroMin" visibility="package" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WmogdbQ-Ee29d62A2QG_IA" value="Integer.MAX_VALUE"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WmpHgbQ-Ee29d62A2QG_IA" name="sc" visibility="package" isStatic="true" type="_WmcTMLQ-Ee29d62A2QG_IA" association="_WnDXMLQ-Ee29d62A2QG_IA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WmpHgrQ-Ee29d62A2QG_IA" value="new Scanner(System.in)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WmpukbQ-Ee29d62A2QG_IA" name="contador" visibility="package" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WmpukrQ-Ee29d62A2QG_IA" value="1"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WmyRcLQ-Ee29d62A2QG_IA" name="main" specification="_WlcNoLQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_WmyRcbQ-Ee29d62A2QG_IA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WmyRcrQ-Ee29d62A2QG_IA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>registrarNum();&#xD;
+		mostrarNum();&#xD;
+		promedio(lista);&#xD;
+		numMax();&#xD;
+		numMin();&#xD;
+		numImpares();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm3J8LQ-Ee29d62A2QG_IA" name="registrarNum" specification="_WldbwbQ-Ee29d62A2QG_IA">
+          <language>java</language>
+          <body>while (true) {&#xD;
+			System.out.println(&quot;Ingrese su numero: &quot;);&#xD;
+			capturador = sc.nextLine();&#xD;
+&#xD;
+			if (Integer.parseInt(capturador) == 0 &amp;&amp; contador >= 3) {&#xD;
+				break;&#xD;
+			} else if (Integer.parseInt(capturador) == 0 &amp;&amp; contador &lt; 3) {&#xD;
+				System.out.println(&quot;Ingrese 3 valores o mas. &quot;);&#xD;
+			} else {&#xD;
+				guardarNum();&#xD;
+&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm3J8bQ-Ee29d62A2QG_IA" name="guardarNum" specification="_WleC0LQ-Ee29d62A2QG_IA">
+          <language>java</language>
+          <body>lista.add(Integer.parseInt(capturador));&#xD;
+		System.out.println(&quot;Se ha registrado correctamente el numero. &quot;);&#xD;
+		contador++;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm3xALQ-Ee29d62A2QG_IA" name="mostrarNum" specification="_WleC0bQ-Ee29d62A2QG_IA">
+          <language>java</language>
+          <body>System.out.println(lista);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm3xAbQ-Ee29d62A2QG_IA" name="promedio" specification="_WmjA4LQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wm3xArQ-Ee29d62A2QG_IA" name="lista" type="_WmbFELQ-Ee29d62A2QG_IA"/>
+          <ownedParameter xmi:id="_Wm3xA7Q-Ee29d62A2QG_IA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>//loop sumatoria de los valores de la lista&#xD;
+		for (int i = 0; i &lt; lista.size(); i++) {&#xD;
+			numeros += lista.get(i);&#xD;
+		}&#xD;
+		promedio = numeros / lista.size();&#xD;
+		System.out.println(&quot;El promedio de los valores es: &quot; + promedio);&#xD;
+		return promedio;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm3xBLQ-Ee29d62A2QG_IA" name="numMax" specification="_Wlep4LQ-Ee29d62A2QG_IA">
+          <language>java</language>
+          <body>for (int i = 0; i &lt; lista.size(); i++) {&#xD;
+			if (numeroMax &lt;= lista.get(i)) {&#xD;
+				numeroMax = lista.get(i);&#xD;
+			}&#xD;
+		}&#xD;
+		System.out.println(&quot;El numero mayor es: &quot; + numeroMax);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm4YELQ-Ee29d62A2QG_IA" name="numMin" specification="_Wlep4bQ-Ee29d62A2QG_IA">
+          <language>java</language>
+          <body>for (int i = 0; i &lt; lista.size(); i++) {&#xD;
+			if (numeroMin >= lista.get(i)) {&#xD;
+				numeroMin = lista.get(i);&#xD;
+			}&#xD;
+		}&#xD;
+		System.out.println(&quot;El numero menor es: &quot; + numeroMin);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm4YEbQ-Ee29d62A2QG_IA" name="numImpares" specification="_WlfQ8LQ-Ee29d62A2QG_IA">
+          <language>java</language>
+          <body>int promedio1 = 0;&#xD;
+		int numeros1 = 0;&#xD;
+		for (int i = 0; i &lt; lista.size(); i++) {&#xD;
+			int elemento = lista.get(i);&#xD;
+			if (elemento % 2 == 0) {&#xD;
+				System.out.println(elemento + &quot; es par&quot;);&#xD;
+				lista.remove(i);&#xD;
+				i--;&#xD;
+			} else if (elemento % 2 != 0) {&#xD;
+				System.out.println(elemento + &quot; es impar&quot;);&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+		System.out.println(lista);&#xD;
+&#xD;
+		for (int i = 0; i &lt; lista.size(); i++) {&#xD;
+			numeros1 += lista.get(i);&#xD;
+		}&#xD;
+		promedio1 = numeros1 / lista.size();&#xD;
+		System.out.println(&quot;El promedio de los valores es: &quot; + promedio1);&#xD;
+		numMax();&#xD;
+		numMin();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WlcNoLQ-Ee29d62A2QG_IA" name="main" isStatic="true" method="_WmyRcLQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_WlcNobQ-Ee29d62A2QG_IA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WldbwLQ-Ee29d62A2QG_IA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WldbwbQ-Ee29d62A2QG_IA" name="registrarNum" isStatic="true" method="_Wm3J8LQ-Ee29d62A2QG_IA"/>
+        <ownedOperation xmi:id="_WleC0LQ-Ee29d62A2QG_IA" name="guardarNum" isStatic="true" method="_Wm3J8bQ-Ee29d62A2QG_IA"/>
+        <ownedOperation xmi:id="_WleC0bQ-Ee29d62A2QG_IA" name="mostrarNum" isStatic="true" method="_Wm3xALQ-Ee29d62A2QG_IA"/>
+        <ownedOperation xmi:id="_Wlep4LQ-Ee29d62A2QG_IA" name="numMax" isStatic="true" method="_Wm3xBLQ-Ee29d62A2QG_IA"/>
+        <ownedOperation xmi:id="_Wlep4bQ-Ee29d62A2QG_IA" name="numMin" isStatic="true" method="_Wm4YELQ-Ee29d62A2QG_IA"/>
+        <ownedOperation xmi:id="_WlfQ8LQ-Ee29d62A2QG_IA" name="numImpares" isStatic="true" method="_Wm4YEbQ-Ee29d62A2QG_IA"/>
+        <ownedOperation xmi:id="_WmjA4LQ-Ee29d62A2QG_IA" name="promedio" isStatic="true" method="_Wm3xAbQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_WmjA4bQ-Ee29d62A2QG_IA" name="lista" type="_WmbFELQ-Ee29d62A2QG_IA"/>
+          <ownedParameter xmi:id="_WmjA4rQ-Ee29d62A2QG_IA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WnBiALQ-Ee29d62A2QG_IA" name="" memberEnd="_WnBiAbQ-Ee29d62A2QG_IA _WmldILQ-Ee29d62A2QG_IA">
+        <ownedEnd xmi:id="_WnBiAbQ-Ee29d62A2QG_IA" name="" type="_WlX8MLQ-Ee29d62A2QG_IA" association="_WnBiALQ-Ee29d62A2QG_IA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WnDXMLQ-Ee29d62A2QG_IA" name="" memberEnd="_WnDXMbQ-Ee29d62A2QG_IA _WmpHgbQ-Ee29d62A2QG_IA">
+        <ownedEnd xmi:id="_WnDXMbQ-Ee29d62A2QG_IA" name="" type="_WlX8MLQ-Ee29d62A2QG_IA" association="_WnDXMLQ-Ee29d62A2QG_IA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WlKg0LQ-Ee29d62A2QG_IA" name="practicaSmartphone">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WlhGILQ-Ee29d62A2QG_IA" name="Bateria">
+        <ownedComment xmi:id="_Wm8pgLQ-Ee29d62A2QG_IA">
+          <body>Se define la clase y sus atributos</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_WmqVoLQ-Ee29d62A2QG_IA" name="marca">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WmqVobQ-Ee29d62A2QG_IA" name="mAh" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm4YErQ-Ee29d62A2QG_IA" name="Bateria" specification="_Wli7ULQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wm4YE7Q-Ee29d62A2QG_IA" name="marca">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Wm4YFLQ-Ee29d62A2QG_IA" name="mAh">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Wm4YFbQ-Ee29d62A2QG_IA" type="_WlhGILQ-Ee29d62A2QG_IA" direction="return"/>
+          <language>java</language>
+          <body>this.marca = marca; &#xD;
+		this.mAh = mAh;&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm4_ILQ-Ee29d62A2QG_IA" name="setmAh" specification="_WljiZLQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wm4_IbQ-Ee29d62A2QG_IA" name="mAh">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>/** SETTER mAh , se debe poner el datatype porque sino en el main no te deja agregar datos*/&#xD;
+		this.mAh = mAh;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm4_IrQ-Ee29d62A2QG_IA" name="getmAh" specification="_WlkJcLQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wm4_I7Q-Ee29d62A2QG_IA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>/** GETTER mAh*/&#xD;
+		return mAh;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm4_JLQ-Ee29d62A2QG_IA" name="mostrarBateria" specification="_WlkJcrQ-Ee29d62A2QG_IA">
+          <language>java</language>
+          <body>System.out.println(&quot;Modelo Bateria: &quot; + marca);&#xD;
+		System.out.println(&quot;Amperaje: &quot; + mAh);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WlhtMLQ-Ee29d62A2QG_IA" name="Bateria">
+          <eAnnotations xmi:id="_WliUQLQ-Ee29d62A2QG_IA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WliUQbQ-Ee29d62A2QG_IA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WliUQ7Q-Ee29d62A2QG_IA" type="_WlhGILQ-Ee29d62A2QG_IA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Wli7ULQ-Ee29d62A2QG_IA" name="Bateria" method="_Wm4YErQ-Ee29d62A2QG_IA">
+          <eAnnotations xmi:id="_WljiYbQ-Ee29d62A2QG_IA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WljiYrQ-Ee29d62A2QG_IA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_Wm8pgbQ-Ee29d62A2QG_IA">
+            <body>metodo constructor con los atributos como parametros</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Wli7UbQ-Ee29d62A2QG_IA" name="marca">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WljiYLQ-Ee29d62A2QG_IA" name="mAh">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WljiY7Q-Ee29d62A2QG_IA" type="_WlhGILQ-Ee29d62A2QG_IA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WljiZLQ-Ee29d62A2QG_IA" name="setmAh" method="_Wm4_ILQ-Ee29d62A2QG_IA">
+          <ownedComment xmi:id="_Wm8pgrQ-Ee29d62A2QG_IA">
+            <body>@param AMPERAJE</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_WljiZbQ-Ee29d62A2QG_IA" name="mAh">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WlkJcLQ-Ee29d62A2QG_IA" name="getmAh" method="_Wm4_IrQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_WlkJcbQ-Ee29d62A2QG_IA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WlkJcrQ-Ee29d62A2QG_IA" name="mostrarBateria" method="_Wm4_JLQ-Ee29d62A2QG_IA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WlkwgLQ-Ee29d62A2QG_IA" name="Chip">
+        <ownedAttribute xmi:id="_Wmq8sLQ-Ee29d62A2QG_IA" name="empresa">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Wmq8sbQ-Ee29d62A2QG_IA" name="numero">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm5mMLQ-Ee29d62A2QG_IA" name="Chip" specification="_Wll-obQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wm5mMbQ-Ee29d62A2QG_IA" name="empresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Wm5mMrQ-Ee29d62A2QG_IA" name="numero">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Wm5mM7Q-Ee29d62A2QG_IA" type="_WlkwgLQ-Ee29d62A2QG_IA" direction="return"/>
+          <language>java</language>
+          <body>this.empresa = empresa ; &#xD;
+		this.numero = numero; &#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm5mNLQ-Ee29d62A2QG_IA" name="mostrarChip" specification="_WlmlsbQ-Ee29d62A2QG_IA">
+          <language>java</language>
+          <body>System.out.println(&quot;Empresa Chip: &quot; + empresa);&#xD;
+		System.out.println(&quot;Numero de Chip: &quot; + numero);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WllXkLQ-Ee29d62A2QG_IA" name="Chip">
+          <eAnnotations xmi:id="_WllXkbQ-Ee29d62A2QG_IA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WllXkrQ-Ee29d62A2QG_IA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Wll-oLQ-Ee29d62A2QG_IA" type="_WlkwgLQ-Ee29d62A2QG_IA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Wll-obQ-Ee29d62A2QG_IA" name="Chip" method="_Wm5mMLQ-Ee29d62A2QG_IA">
+          <eAnnotations xmi:id="_Wll-pLQ-Ee29d62A2QG_IA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Wll-pbQ-Ee29d62A2QG_IA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Wll-orQ-Ee29d62A2QG_IA" name="empresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Wll-o7Q-Ee29d62A2QG_IA" name="numero">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WlmlsLQ-Ee29d62A2QG_IA" type="_WlkwgLQ-Ee29d62A2QG_IA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WlmlsbQ-Ee29d62A2QG_IA" name="mostrarChip" method="_Wm5mNLQ-Ee29d62A2QG_IA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WlnMwLQ-Ee29d62A2QG_IA" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm6NQLQ-Ee29d62A2QG_IA" name="main" specification="_WlnMwbQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wm6NQbQ-Ee29d62A2QG_IA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wm6NQrQ-Ee29d62A2QG_IA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub&#xD;
+		Smartphone celular1 = new Smartphone();&#xD;
+		Smartphone celular2 = new Smartphone(&quot;SAMSUNG&quot;, &quot;lithium&quot;, &quot;3400&quot;);&#xD;
+		&#xD;
+		Chip entel = new Chip(&quot;Entel&quot;, 78652345);&#xD;
+		Chip movistar = new Chip(&quot;Movistar&quot;, 91238653);&#xD;
+		Chip virginMobile = new Chip(&quot;Virgin Mobile&quot;, 62767444);&#xD;
+		Chip claro = new Chip(&quot;Claro&quot;, 43567902);&#xD;
+		&#xD;
+		celular1.setMarcaCel(&quot;Huawei&quot;);&#xD;
+		celular1.getBateria().setMarca(&quot;litio&quot;);&#xD;
+		celular1.getBateria().setmAh(&quot;5200&quot;);&#xD;
+		celular1.agregarChips(entel);&#xD;
+		celular1.agregarChips(movistar);&#xD;
+		&#xD;
+		celular2.agregarChips(virginMobile);&#xD;
+		celular2.agregarChips(claro);&#xD;
+		&#xD;
+		celular1.mostrar();&#xD;
+		celular2.mostrar();&#xD;
+	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WlnMwbQ-Ee29d62A2QG_IA" name="main" isStatic="true" method="_Wm6NQLQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wlnz0LQ-Ee29d62A2QG_IA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wlnz0bQ-Ee29d62A2QG_IA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Wlnz0rQ-Ee29d62A2QG_IA" name="Smartphone">
+        <ownedAttribute xmi:id="_Wmq8srQ-Ee29d62A2QG_IA" name="marcaCel">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WmrjwLQ-Ee29d62A2QG_IA" name="bateria" type="_WlhGILQ-Ee29d62A2QG_IA" association="_Wm93oLQ-Ee29d62A2QG_IA"/>
+        <ownedAttribute xmi:id="_WmrjwbQ-Ee29d62A2QG_IA" name="cantChips" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WmrjwrQ-Ee29d62A2QG_IA" name="chips" visibility="private" type="_WlkwgLQ-Ee29d62A2QG_IA" association="_WnElULQ-Ee29d62A2QG_IA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wmrjw7Q-Ee29d62A2QG_IA" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm60ULQ-Ee29d62A2QG_IA" name="Smartphone" specification="_Wloa4LQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wm60UbQ-Ee29d62A2QG_IA" type="_Wlnz0rQ-Ee29d62A2QG_IA" direction="return"/>
+          <language>java</language>
+          <body>bateria = new Bateria();&#xD;
+		/** se instancia el espacio para que quepa el arreglo de los chips*/&#xD;
+		chips = new Chip[2];&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm60UrQ-Ee29d62A2QG_IA" name="Smartphone" specification="_WlpB87Q-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wm60U7Q-Ee29d62A2QG_IA" name="marcaCel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Wm60VLQ-Ee29d62A2QG_IA" name="marca">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Wm60VbQ-Ee29d62A2QG_IA" name="mAh">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Wm60VrQ-Ee29d62A2QG_IA" type="_Wlnz0rQ-Ee29d62A2QG_IA" direction="return"/>
+          <language>java</language>
+          <body>this.marcaCel = marcaCel;&#xD;
+		this.bateria = new Bateria(marca,mAh); &#xD;
+		this.cantChips = 0;&#xD;
+		this.chips = new Chip[2];&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm7bYLQ-Ee29d62A2QG_IA" name="setCantChips" specification="_WlppBrQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wm7bYbQ-Ee29d62A2QG_IA" name="cantChips">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.cantChips = 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm7bYrQ-Ee29d62A2QG_IA" name="mostrar" specification="_WlqQEbQ-Ee29d62A2QG_IA">
+          <language>java</language>
+          <body>System.out.println(&quot;Marca Celular: &quot; + marcaCel);&#xD;
+		bateria.mostrarBateria();&#xD;
+		System.out.println(&quot;Cantidad de Chips: &quot; + cantChips);&#xD;
+		for (int i = 0; i &lt; cantChips; i++) {&#xD;
+			chips[i].mostrarChip();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wm7bY7Q-Ee29d62A2QG_IA" name="agregarChips" specification="_Wmf9kLQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_Wm7bZLQ-Ee29d62A2QG_IA" name="nuevoChip" type="_WlkwgLQ-Ee29d62A2QG_IA"/>
+          <language>java</language>
+          <body>if (cantChips &lt; 2) {&#xD;
+			chips[cantChips] = nuevoChip;&#xD;
+			cantChips++;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Wloa4LQ-Ee29d62A2QG_IA" name="Smartphone" method="_Wm60ULQ-Ee29d62A2QG_IA">
+          <eAnnotations xmi:id="_WlpB8LQ-Ee29d62A2QG_IA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WlpB8bQ-Ee29d62A2QG_IA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WlpB8rQ-Ee29d62A2QG_IA" type="_Wlnz0rQ-Ee29d62A2QG_IA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WlpB87Q-Ee29d62A2QG_IA" name="Smartphone" method="_Wm60UrQ-Ee29d62A2QG_IA">
+          <eAnnotations xmi:id="_WlppA7Q-Ee29d62A2QG_IA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WlppBLQ-Ee29d62A2QG_IA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WlppALQ-Ee29d62A2QG_IA" name="marcaCel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WlppAbQ-Ee29d62A2QG_IA" name="marca">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WlppArQ-Ee29d62A2QG_IA" name="mAh">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WlppBbQ-Ee29d62A2QG_IA" type="_Wlnz0rQ-Ee29d62A2QG_IA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WlppBrQ-Ee29d62A2QG_IA" name="setCantChips" method="_Wm7bYLQ-Ee29d62A2QG_IA">
+          <ownedParameter xmi:id="_WlqQELQ-Ee29d62A2QG_IA" name="cantChips">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WlqQEbQ-Ee29d62A2QG_IA" name="mostrar" method="_Wm7bYrQ-Ee29d62A2QG_IA">
+          <ownedComment xmi:id="_Wm-esLQ-Ee29d62A2QG_IA">
+            <body>se declara la funcion mostrar(), muestra los datos de las clases relacinadas</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Wmf9kLQ-Ee29d62A2QG_IA" name="agregarChips" method="_Wm7bY7Q-Ee29d62A2QG_IA">
+          <ownedComment xmi:id="_Wm-esbQ-Ee29d62A2QG_IA">
+            <body>se declara la funcion agregarChips, se crea un Chip llamado nuevoChip cuando se cumple la condicion</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Wmf9kbQ-Ee29d62A2QG_IA" name="nuevoChip" type="_WlkwgLQ-Ee29d62A2QG_IA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Wm93oLQ-Ee29d62A2QG_IA" name="" memberEnd="_WmrjwLQ-Ee29d62A2QG_IA _Wm93obQ-Ee29d62A2QG_IA">
+        <ownedEnd xmi:id="_Wm93obQ-Ee29d62A2QG_IA" name="" type="_Wlnz0rQ-Ee29d62A2QG_IA" association="_Wm93oLQ-Ee29d62A2QG_IA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WnElULQ-Ee29d62A2QG_IA" name="" memberEnd="_WnElUbQ-Ee29d62A2QG_IA _WmrjwrQ-Ee29d62A2QG_IA">
+        <ownedEnd xmi:id="_WnElUbQ-Ee29d62A2QG_IA" name="" type="_Wlnz0rQ-Ee29d62A2QG_IA" association="_WnElULQ-Ee29d62A2QG_IA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_WaY0MLQ-Ee29d62A2QG_IA">
+      <eAnnotations xmi:id="_WacekLQ-Ee29d62A2QG_IA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_WaeTwLQ-Ee29d62A2QG_IA" base_Package="_WWxfgLQ-Ee29d62A2QG_IA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WliUQrQ-Ee29d62A2QG_IA" base_Element="_WlhtMLQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WllXk7Q-Ee29d62A2QG_IA" base_Element="_WllXkLQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:Reference xmi:id="_WmbsILQ-Ee29d62A2QG_IA" base_Element="_WmbFELQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:Reference xmi:id="_WmdhULQ-Ee29d62A2QG_IA" base_Element="_WmcTMLQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:Generics xmi:id="_WmkPALQ-Ee29d62A2QG_IA" genericsValue="Integer" base_Element="_WmjA4bQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:Generics xmi:id="_WmmEMLQ-Ee29d62A2QG_IA" genericsValue="Integer" base_Element="_WmldILQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmmrQbQ-Ee29d62A2QG_IA" base_Element="_WmldILQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmnSUrQ-Ee29d62A2QG_IA" base_Element="_WmnSULQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wmn5YbQ-Ee29d62A2QG_IA" base_Element="_WmnSU7Q-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmogcLQ-Ee29d62A2QG_IA" base_Element="_Wmn5YrQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wmogc7Q-Ee29d62A2QG_IA" base_Element="_WmogcbQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmpHgLQ-Ee29d62A2QG_IA" base_Element="_WmogdLQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmpukLQ-Ee29d62A2QG_IA" base_Element="_WmpHgbQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wmpuk7Q-Ee29d62A2QG_IA" base_Element="_WmpukbQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmqVorQ-Ee29d62A2QG_IA" base_Element="_WmqVobQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:Array xmi:id="_WmsK0LQ-Ee29d62A2QG_IA" base_Element="_WmrjwrQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WmsK0bQ-Ee29d62A2QG_IA" base_Element="_WmrjwrQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:Reference xmi:id="_WnCwILQ-Ee29d62A2QG_IA" base_Element="_WnBiALQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:Reference xmi:id="_WnD-QLQ-Ee29d62A2QG_IA" base_Element="_WnDXMLQ-Ee29d62A2QG_IA"/>
+  <UMLLabProfile:Reference xmi:id="_WnFzcLQ-Ee29d62A2QG_IA" base_Element="_WnElULQ-Ee29d62A2QG_IA"/>
+</xmi:XMI>

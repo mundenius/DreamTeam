@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WXa_wLQ-Ee29d62A2QG_IA">
+  <modelElement href="ejerciciosPractica.uml#_WWxfgLQ-Ee29d62A2QG_IA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YTrRELQ-Ee29d62A2QG_IA" source="_YTsfObQ-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_WnBiALQ-Ee29d62A2QG_IA"/>
+    <stereotypes xmi:id="_YTrREbQ-Ee29d62A2QG_IA" name="Reference">
+      <modelElement href="ejerciciosPractica.uml#_WnCwILQ-Ee29d62A2QG_IA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YTrRErQ-Ee29d62A2QG_IA" text=""/>
+    <sourceRole xmi:id="_YTrRE7Q-Ee29d62A2QG_IA" aggregationKind="NONE" name="">
+      <modelElement href="ejerciciosPractica.uml#_WnBiAbQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YTrRFLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YTrRFbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YTrRFrQ-Ee29d62A2QG_IA" aggregationKind="NONE" name="lista" navigable="true">
+      <modelElement href="ejerciciosPractica.uml#_WmldILQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_dvH-kLRpEe2Th6EDyyuzBQ" name="Generics">
+        <modelElement href="ejerciciosPractica.uml#_WmmEMLQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dvJzwLRpEe2Th6EDyyuzBQ" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_WmmrQbQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YTrRF7Q-Ee29d62A2QG_IA" label="~"/>
+      <cardinality xmi:id="_YTrRGLQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YTsfMLQ-Ee29d62A2QG_IA" source="_YTsfObQ-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_WnDXMLQ-Ee29d62A2QG_IA"/>
+    <stereotypes xmi:id="_YTsfMbQ-Ee29d62A2QG_IA" name="Reference">
+      <modelElement href="ejerciciosPractica.uml#_WnD-QLQ-Ee29d62A2QG_IA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YTsfMrQ-Ee29d62A2QG_IA" text=""/>
+    <sourceRole xmi:id="_YTsfM7Q-Ee29d62A2QG_IA" aggregationKind="NONE" name="">
+      <modelElement href="ejerciciosPractica.uml#_WnDXMbQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YTsfNLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YTsfNbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YTsfNrQ-Ee29d62A2QG_IA" aggregationKind="NONE" name="sc" navigable="true">
+      <modelElement href="ejerciciosPractica.uml#_WmpHgbQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_dvLo8LRpEe2Th6EDyyuzBQ" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_WmpukLQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YTsfN7Q-Ee29d62A2QG_IA" label="~"/>
+      <cardinality xmi:id="_YTsfOLQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YUWmgLQ-Ee29d62A2QG_IA" targetItem="_YUZp0LQ-Ee29d62A2QG_IA" sourceItem="_YULnYLQ-Ee29d62A2QG_IA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YUYbsLQ-Ee29d62A2QG_IA" targetItem="_YUZp47Q-Ee29d62A2QG_IA" sourceItem="_YUX0oLQ-Ee29d62A2QG_IA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YUYbsrQ-Ee29d62A2QG_IA" targetItem="_YUZp77Q-Ee29d62A2QG_IA" sourceItem="_YUYbsbQ-Ee29d62A2QG_IA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YVhEILQ-Ee29d62A2QG_IA" sourceAnchor="0.0,104.0" targetAnchor="548.0,104.0" target="_YWG6ALQ-Ee29d62A2QG_IA" source="_YUZp0LQ-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_Wm93oLQ-Ee29d62A2QG_IA"/>
+    <nameVisual xmi:id="_YV7T0LQ-Ee29d62A2QG_IA" text="">
+      <visualProperties xmi:id="_YkX_gbQ-Ee29d62A2QG_IA" position="-29.5,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YV7T0bQ-Ee29d62A2QG_IA" aggregationKind="NONE" name="bateria" navigable="true">
+      <modelElement href="ejerciciosPractica.uml#_WmrjwLQ-Ee29d62A2QG_IA"/>
+      <visualProperties xmi:id="_YkX_gLQ-Ee29d62A2QG_IA" position="-67.5,11.5"/>
+      <visibility xmi:id="_YWFE0bQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWFE0LQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YV7T0rQ-Ee29d62A2QG_IA" aggregationKind="NONE" name="">
+      <modelElement href="ejerciciosPractica.uml#_Wm93obQ-Ee29d62A2QG_IA"/>
+      <visualProperties xmi:id="_YkYmkLQ-Ee29d62A2QG_IA" position="5.5,-66.50000000000006"/>
+      <visibility xmi:id="_YWFE07Q-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWFE0rQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YVw7wLQ-Ee29d62A2QG_IA" sourceAnchor="274.0,0.0" targetAnchor="171.0,162.0" target="_YUvBALQ-Ee29d62A2QG_IA" source="_YWG6ALQ-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_WnElULQ-Ee29d62A2QG_IA"/>
+    <stereotypes xmi:id="_YV764bQ-Ee29d62A2QG_IA" name="Reference">
+      <modelElement href="ejerciciosPractica.uml#_WnFzcLQ-Ee29d62A2QG_IA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YV7T07Q-Ee29d62A2QG_IA" text="">
+      <visualProperties xmi:id="_YkYmkrQ-Ee29d62A2QG_IA" position="-20.5,-6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YV7T1LQ-Ee29d62A2QG_IA" aggregationKind="NONE" name="">
+      <modelElement href="ejerciciosPractica.uml#_WnElUbQ-Ee29d62A2QG_IA"/>
+      <visualProperties xmi:id="_YkYmkbQ-Ee29d62A2QG_IA" position="-21.0,-60.0"/>
+      <visibility xmi:id="_YWFE1bQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWFE1LQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YV764LQ-Ee29d62A2QG_IA" aggregationKind="NONE" name="chips" navigable="true">
+      <modelElement href="ejerciciosPractica.uml#_WmrjwrQ-Ee29d62A2QG_IA"/>
+      <visualProperties xmi:id="_YkYmk7Q-Ee29d62A2QG_IA" position="1.0,5.0"/>
+      <stereotypes xmi:id="_dvNeILRpEe2Th6EDyyuzBQ" name="Array">
+        <modelElement href="ejerciciosPractica.uml#_WmsK0LQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dvOFMLRpEe2Th6EDyyuzBQ" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_WmsK0bQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YWFr4LQ-Ee29d62A2QG_IA" label="-"/>
+      <cardinality xmi:id="_YWFE1rQ-Ee29d62A2QG_IA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YWBacLQ-Ee29d62A2QG_IA" targetItem="_YWG6MLQ-Ee29d62A2QG_IA" sourceItem="_YV8h8LQ-Ee29d62A2QG_IA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YWD2sLQ-Ee29d62A2QG_IA" targetItem="_YWG6M7Q-Ee29d62A2QG_IA" sourceItem="_YWBacbQ-Ee29d62A2QG_IA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YULnYLQ-Ee29d62A2QG_IA" sourceConnectionVisual="_YUWmgLQ-Ee29d62A2QG_IA" text="Se define la clase y sus atributos" item="_YUZp0LQ-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_Wm8pgLQ-Ee29d62A2QG_IA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YUX0oLQ-Ee29d62A2QG_IA" sourceConnectionVisual="_YUYbsLQ-Ee29d62A2QG_IA" text="metodo constructor con los atributos como parametros" item="_YUZp47Q-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_Wm8pgbQ-Ee29d62A2QG_IA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YUYbsbQ-Ee29d62A2QG_IA" sourceConnectionVisual="_YUYbsrQ-Ee29d62A2QG_IA" text="@param AMPERAJE" item="_YUZp77Q-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_Wm8pgrQ-Ee29d62A2QG_IA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YV8h8LQ-Ee29d62A2QG_IA" sourceConnectionVisual="_YWBacLQ-Ee29d62A2QG_IA" text="se declara la funcion mostrar(), muestra los datos de las clases relacinadas" item="_YWG6MLQ-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_Wm-esLQ-Ee29d62A2QG_IA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YWBacbQ-Ee29d62A2QG_IA" sourceConnectionVisual="_YWD2sLQ-Ee29d62A2QG_IA" text="se declara la funcion agregarChips, se crea un Chip llamado nuevoChip cuando se cumple la condicion" item="_YWG6M7Q-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_Wm-esbQ-Ee29d62A2QG_IA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YUZp0LQ-Ee29d62A2QG_IA" comments="_YULnYLQ-Ee29d62A2QG_IA" targetConnectionVisual="_YUWmgLQ-Ee29d62A2QG_IA" name="Bateria" associationsOut="_YVhEILQ-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_WlhGILQ-Ee29d62A2QG_IA"/>
+    <visualProperties xmi:id="_YUZp0bQ-Ee29d62A2QG_IA" position="767.0,436.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YUZp0rQ-Ee29d62A2QG_IA" label="+"/>
+    <attributes xmi:id="_YUZp07Q-Ee29d62A2QG_IA" name="marca">
+      <modelElement href="ejerciciosPractica.uml#_WmqVoLQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YUZp1LQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUZp1bQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YUZp1rQ-Ee29d62A2QG_IA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YUZp17Q-Ee29d62A2QG_IA" name="mAh">
+      <modelElement href="ejerciciosPractica.uml#_WmqVobQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_YUZp2LQ-Ee29d62A2QG_IA" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_WmqVorQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YUZp2bQ-Ee29d62A2QG_IA" label="-"/>
+      <cardinality xmi:id="_YUZp2rQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YUZp27Q-Ee29d62A2QG_IA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YUZp3LQ-Ee29d62A2QG_IA" name="Bateria">
+      <modelElement href="ejerciciosPractica.uml#_WlhtMLQ-Ee29d62A2QG_IA"/>
+      <keywords xmi:id="_YUZp3bQ-Ee29d62A2QG_IA" keyword="create"/>
+      <stereotypes xmi:id="_YUZp3rQ-Ee29d62A2QG_IA" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_WliUQrQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YUZp37Q-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUZp4LQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YUZp4bQ-Ee29d62A2QG_IA">
+        <modelElement href="ejerciciosPractica.uml#_WliUQ7Q-Ee29d62A2QG_IA"/>
+        <type xmi:id="_YUZp4rQ-Ee29d62A2QG_IA" name="Bateria">
+          <modelElement href="ejerciciosPractica.uml#_WlhGILQ-Ee29d62A2QG_IA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YUZp47Q-Ee29d62A2QG_IA" comments="_YUX0oLQ-Ee29d62A2QG_IA" targetConnectionVisual="_YUYbsLQ-Ee29d62A2QG_IA" name="Bateria">
+      <modelElement href="ejerciciosPractica.uml#_Wli7ULQ-Ee29d62A2QG_IA"/>
+      <keywords xmi:id="_YUZp5LQ-Ee29d62A2QG_IA" keyword="create"/>
+      <visibility xmi:id="_YUZp5bQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUZp5rQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YUZp57Q-Ee29d62A2QG_IA">
+        <modelElement href="ejerciciosPractica.uml#_WljiY7Q-Ee29d62A2QG_IA"/>
+        <type xmi:id="_YUZp6LQ-Ee29d62A2QG_IA" name="Bateria">
+          <modelElement href="ejerciciosPractica.uml#_WlhGILQ-Ee29d62A2QG_IA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YUZp6bQ-Ee29d62A2QG_IA" name="marca">
+        <modelElement href="ejerciciosPractica.uml#_Wli7UbQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YUZp6rQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YUZp67Q-Ee29d62A2QG_IA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YUZp7LQ-Ee29d62A2QG_IA" name="mAh">
+        <modelElement href="ejerciciosPractica.uml#_WljiYLQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YUZp7bQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YUZp7rQ-Ee29d62A2QG_IA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YUZp77Q-Ee29d62A2QG_IA" comments="_YUYbsbQ-Ee29d62A2QG_IA" targetConnectionVisual="_YUYbsrQ-Ee29d62A2QG_IA" name="setmAh">
+      <modelElement href="ejerciciosPractica.uml#_WljiZLQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YUZp8LQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUZp8bQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YUZp8rQ-Ee29d62A2QG_IA" name="mAh">
+        <modelElement href="ejerciciosPractica.uml#_WljiZbQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YUZp87Q-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YUZp9LQ-Ee29d62A2QG_IA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YUZp9bQ-Ee29d62A2QG_IA" name="getmAh">
+      <modelElement href="ejerciciosPractica.uml#_WlkJcLQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YUZp9rQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUZp97Q-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YUZp-LQ-Ee29d62A2QG_IA">
+        <modelElement href="ejerciciosPractica.uml#_WlkJcbQ-Ee29d62A2QG_IA"/>
+        <type xmi:id="_YUZp-bQ-Ee29d62A2QG_IA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YUZp-rQ-Ee29d62A2QG_IA" name="mostrarBateria">
+      <modelElement href="ejerciciosPractica.uml#_WlkJcrQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YUZp-7Q-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUZp_LQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YUvBALQ-Ee29d62A2QG_IA" name="Chip" associationsIn="_YVw7wLQ-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_WlkwgLQ-Ee29d62A2QG_IA"/>
+    <visualProperties xmi:id="_YUvBAbQ-Ee29d62A2QG_IA" position="120.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YUvBArQ-Ee29d62A2QG_IA" label="+"/>
+    <attributes xmi:id="_YUvBA7Q-Ee29d62A2QG_IA" name="empresa">
+      <modelElement href="ejerciciosPractica.uml#_Wmq8sLQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YUvBBLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUvBBbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YUvBBrQ-Ee29d62A2QG_IA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YUvBB7Q-Ee29d62A2QG_IA" name="numero">
+      <modelElement href="ejerciciosPractica.uml#_Wmq8sbQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YUvBCLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUvBCbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YUvBCrQ-Ee29d62A2QG_IA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YUvBC7Q-Ee29d62A2QG_IA" name="Chip">
+      <modelElement href="ejerciciosPractica.uml#_WllXkLQ-Ee29d62A2QG_IA"/>
+      <keywords xmi:id="_YUvBDLQ-Ee29d62A2QG_IA" keyword="create"/>
+      <stereotypes xmi:id="_YUvBDbQ-Ee29d62A2QG_IA" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_WllXk7Q-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YUvBDrQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUvBD7Q-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YUvBELQ-Ee29d62A2QG_IA">
+        <modelElement href="ejerciciosPractica.uml#_Wll-oLQ-Ee29d62A2QG_IA"/>
+        <type xmi:id="_YUvBEbQ-Ee29d62A2QG_IA" name="Chip">
+          <modelElement href="ejerciciosPractica.uml#_WlkwgLQ-Ee29d62A2QG_IA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YUvBErQ-Ee29d62A2QG_IA" name="Chip">
+      <modelElement href="ejerciciosPractica.uml#_Wll-obQ-Ee29d62A2QG_IA"/>
+      <keywords xmi:id="_YUvBE7Q-Ee29d62A2QG_IA" keyword="create"/>
+      <visibility xmi:id="_YUvBFLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUvBFbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YUvBFrQ-Ee29d62A2QG_IA">
+        <modelElement href="ejerciciosPractica.uml#_WlmlsLQ-Ee29d62A2QG_IA"/>
+        <type xmi:id="_YUvBF7Q-Ee29d62A2QG_IA" name="Chip">
+          <modelElement href="ejerciciosPractica.uml#_WlkwgLQ-Ee29d62A2QG_IA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YUvBGLQ-Ee29d62A2QG_IA" name="empresa">
+        <modelElement href="ejerciciosPractica.uml#_Wll-orQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YUvBGbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YUvBGrQ-Ee29d62A2QG_IA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YUvBG7Q-Ee29d62A2QG_IA" name="numero">
+        <modelElement href="ejerciciosPractica.uml#_Wll-o7Q-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YUvBHLQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YUvBHbQ-Ee29d62A2QG_IA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YUvBHrQ-Ee29d62A2QG_IA" name="mostrarChip">
+      <modelElement href="ejerciciosPractica.uml#_WlmlsbQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YUvBH7Q-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YUvBILQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YVICkLQ-Ee29d62A2QG_IA" name="Main">
+    <modelElement href="ejerciciosPractica.uml#_WlnMwLQ-Ee29d62A2QG_IA"/>
+    <visualProperties xmi:id="_YVICkbQ-Ee29d62A2QG_IA" position="429.0,703.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YVICkrQ-Ee29d62A2QG_IA" label="+"/>
+    <operations xmi:id="_YVICk7Q-Ee29d62A2QG_IA" name="main" staticOperation="true">
+      <modelElement href="ejerciciosPractica.uml#_WlnMwbQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YVIClLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YVIClbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YVIClrQ-Ee29d62A2QG_IA" name="args">
+        <modelElement href="ejerciciosPractica.uml#_Wlnz0LQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YVICl7Q-Ee29d62A2QG_IA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_YVICmLQ-Ee29d62A2QG_IA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YWG6ALQ-Ee29d62A2QG_IA" name="Smartphone" associationsIn="_YVhEILQ-Ee29d62A2QG_IA" associationsOut="_YVw7wLQ-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_Wlnz0rQ-Ee29d62A2QG_IA"/>
+    <visualProperties xmi:id="_YWG6AbQ-Ee29d62A2QG_IA" position="17.0,436.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YWG6ArQ-Ee29d62A2QG_IA" label="+"/>
+    <attributes xmi:id="_YWG6A7Q-Ee29d62A2QG_IA" name="marcaCel">
+      <modelElement href="ejerciciosPractica.uml#_Wmq8srQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YWG6BLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWG6BbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YWG6BrQ-Ee29d62A2QG_IA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YWG6B7Q-Ee29d62A2QG_IA" name="bateria">
+      <modelElement href="ejerciciosPractica.uml#_WmrjwLQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YWG6CLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWG6CbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YWG6CrQ-Ee29d62A2QG_IA" name="Bateria">
+        <modelElement href="ejerciciosPractica.uml#_WlhGILQ-Ee29d62A2QG_IA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YWG6C7Q-Ee29d62A2QG_IA" name="cantChips">
+      <modelElement href="ejerciciosPractica.uml#_WmrjwbQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YWG6DLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWG6DbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YWG6DrQ-Ee29d62A2QG_IA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YWG6D7Q-Ee29d62A2QG_IA" name="chips">
+      <modelElement href="ejerciciosPractica.uml#_WmrjwrQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_dvi1ULRpEe2Th6EDyyuzBQ" name="Array"/>
+      <stereotypes xmi:id="_dvi1UbRpEe2Th6EDyyuzBQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_dvjcYLRpEe2Th6EDyyuzBQ" name="Array"/>
+      <stereotypes xmi:id="_dvjcYbRpEe2Th6EDyyuzBQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_dvkqgLRpEe2Th6EDyyuzBQ" name="Array"/>
+      <stereotypes xmi:id="_dvkqgbRpEe2Th6EDyyuzBQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YWG6ErQ-Ee29d62A2QG_IA" label="-"/>
+      <cardinality xmi:id="_YWG6E7Q-Ee29d62A2QG_IA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_YWG6FLQ-Ee29d62A2QG_IA" name="Chip">
+        <modelElement href="ejerciciosPractica.uml#_WlkwgLQ-Ee29d62A2QG_IA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YWG6FbQ-Ee29d62A2QG_IA" name="Smartphone">
+      <modelElement href="ejerciciosPractica.uml#_Wloa4LQ-Ee29d62A2QG_IA"/>
+      <keywords xmi:id="_YWG6FrQ-Ee29d62A2QG_IA" keyword="create"/>
+      <visibility xmi:id="_YWG6F7Q-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWG6GLQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YWG6GbQ-Ee29d62A2QG_IA">
+        <modelElement href="ejerciciosPractica.uml#_WlpB8rQ-Ee29d62A2QG_IA"/>
+        <type xmi:id="_YWG6GrQ-Ee29d62A2QG_IA" name="Smartphone">
+          <modelElement href="ejerciciosPractica.uml#_Wlnz0rQ-Ee29d62A2QG_IA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YWG6G7Q-Ee29d62A2QG_IA" name="Smartphone">
+      <modelElement href="ejerciciosPractica.uml#_WlpB87Q-Ee29d62A2QG_IA"/>
+      <keywords xmi:id="_YWG6HLQ-Ee29d62A2QG_IA" keyword="create"/>
+      <visibility xmi:id="_YWG6HbQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWG6HrQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YWG6H7Q-Ee29d62A2QG_IA">
+        <modelElement href="ejerciciosPractica.uml#_WlppBbQ-Ee29d62A2QG_IA"/>
+        <type xmi:id="_YWG6ILQ-Ee29d62A2QG_IA" name="Smartphone">
+          <modelElement href="ejerciciosPractica.uml#_Wlnz0rQ-Ee29d62A2QG_IA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YWG6IbQ-Ee29d62A2QG_IA" name="marcaCel">
+        <modelElement href="ejerciciosPractica.uml#_WlppALQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YWG6IrQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YWG6I7Q-Ee29d62A2QG_IA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YWG6JLQ-Ee29d62A2QG_IA" name="marca">
+        <modelElement href="ejerciciosPractica.uml#_WlppAbQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YWG6JbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YWG6JrQ-Ee29d62A2QG_IA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YWG6J7Q-Ee29d62A2QG_IA" name="mAh">
+        <modelElement href="ejerciciosPractica.uml#_WlppArQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YWG6KLQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YWG6KbQ-Ee29d62A2QG_IA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YWG6KrQ-Ee29d62A2QG_IA" name="setCantChips">
+      <modelElement href="ejerciciosPractica.uml#_WlppBrQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YWG6K7Q-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWG6LLQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YWG6LbQ-Ee29d62A2QG_IA" name="cantChips">
+        <modelElement href="ejerciciosPractica.uml#_WlqQELQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YWG6LrQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YWG6L7Q-Ee29d62A2QG_IA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YWG6MLQ-Ee29d62A2QG_IA" comments="_YV8h8LQ-Ee29d62A2QG_IA" targetConnectionVisual="_YWBacLQ-Ee29d62A2QG_IA" name="mostrar">
+      <modelElement href="ejerciciosPractica.uml#_WlqQEbQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YWG6MbQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWG6MrQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YWG6M7Q-Ee29d62A2QG_IA" comments="_YWBacbQ-Ee29d62A2QG_IA" targetConnectionVisual="_YWD2sLQ-Ee29d62A2QG_IA" name="agregarChips">
+      <modelElement href="ejerciciosPractica.uml#_Wmf9kLQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YWG6NLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YWG6NbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YWG6NrQ-Ee29d62A2QG_IA" name="nuevoChip">
+        <modelElement href="ejerciciosPractica.uml#_Wmf9kbQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YWG6N7Q-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YWG6OLQ-Ee29d62A2QG_IA" name="Chip">
+          <modelElement href="ejerciciosPractica.uml#_WlkwgLQ-Ee29d62A2QG_IA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YTsfObQ-Ee29d62A2QG_IA" name="Practica9" associationsOut="_YTrRELQ-Ee29d62A2QG_IA _YTsfMLQ-Ee29d62A2QG_IA">
+    <modelElement href="ejerciciosPractica.uml#_WlX8MLQ-Ee29d62A2QG_IA"/>
+    <visualProperties xmi:id="_YTsfOrQ-Ee29d62A2QG_IA" position="34.0,718.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YTsfO7Q-Ee29d62A2QG_IA" label="+"/>
+    <attributes xmi:id="_YTsfPLQ-Ee29d62A2QG_IA" defaultValue="new ArrayList&lt;Integer>()" name="lista" staticAttribute="true">
+      <modelElement href="ejerciciosPractica.uml#_WmldILQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_dvd80LRpEe2Th6EDyyuzBQ" name="Generics"/>
+      <stereotypes xmi:id="_dvfK8LRpEe2Th6EDyyuzBQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_dvfyALRpEe2Th6EDyyuzBQ" name="Generics"/>
+      <stereotypes xmi:id="_dvgZELRpEe2Th6EDyyuzBQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_dvlRkLRpEe2Th6EDyyuzBQ" name="Generics"/>
+      <stereotypes xmi:id="_dvlRkbRpEe2Th6EDyyuzBQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YTsfP7Q-Ee29d62A2QG_IA" label="~"/>
+      <cardinality xmi:id="_YTsfQLQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YTsfQbQ-Ee29d62A2QG_IA" name="ArrayList">
+        <modelElement href="ejerciciosPractica.uml#_WmbFELQ-Ee29d62A2QG_IA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YTsfQrQ-Ee29d62A2QG_IA" defaultValue="&quot;&quot;" name="capturador" staticAttribute="true">
+      <modelElement href="ejerciciosPractica.uml#_WmnSULQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_YTsfQ7Q-Ee29d62A2QG_IA" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_WmnSUrQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YTsfRLQ-Ee29d62A2QG_IA" label="~"/>
+      <cardinality xmi:id="_YTsfRbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YTsfRrQ-Ee29d62A2QG_IA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YTsfR7Q-Ee29d62A2QG_IA" defaultValue="0" name="numeros" staticAttribute="true">
+      <modelElement href="ejerciciosPractica.uml#_WmnSU7Q-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_YTsfSLQ-Ee29d62A2QG_IA" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_Wmn5YbQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YTsfSbQ-Ee29d62A2QG_IA" label="~"/>
+      <cardinality xmi:id="_YTsfSrQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YTsfS7Q-Ee29d62A2QG_IA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YTsfTLQ-Ee29d62A2QG_IA" defaultValue="0" name="promedio" staticAttribute="true">
+      <modelElement href="ejerciciosPractica.uml#_Wmn5YrQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_YTsfTbQ-Ee29d62A2QG_IA" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_WmogcLQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YTsfTrQ-Ee29d62A2QG_IA" label="~"/>
+      <cardinality xmi:id="_YTsfT7Q-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YTsfULQ-Ee29d62A2QG_IA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YTsfUbQ-Ee29d62A2QG_IA" defaultValue="0" name="numeroMax" staticAttribute="true">
+      <modelElement href="ejerciciosPractica.uml#_WmogcbQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_YTsfUrQ-Ee29d62A2QG_IA" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_Wmogc7Q-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YTsfU7Q-Ee29d62A2QG_IA" label="~"/>
+      <cardinality xmi:id="_YTsfVLQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YTsfVbQ-Ee29d62A2QG_IA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YTsfVrQ-Ee29d62A2QG_IA" defaultValue="Integer.MAX_VALUE" name="numeroMin" staticAttribute="true">
+      <modelElement href="ejerciciosPractica.uml#_WmogdLQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_YTsfV7Q-Ee29d62A2QG_IA" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_WmpHgLQ-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YTsfWLQ-Ee29d62A2QG_IA" label="~"/>
+      <cardinality xmi:id="_YTsfWbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YTsfWrQ-Ee29d62A2QG_IA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YTsfW7Q-Ee29d62A2QG_IA" defaultValue="new Scanner(System.in)" name="sc" staticAttribute="true">
+      <modelElement href="ejerciciosPractica.uml#_WmpHgbQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_dvhAILRpEe2Th6EDyyuzBQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_dvhnMLRpEe2Th6EDyyuzBQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_dvmfsLRpEe2Th6EDyyuzBQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YTsfXbQ-Ee29d62A2QG_IA" label="~"/>
+      <cardinality xmi:id="_YTsfXrQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YTsfX7Q-Ee29d62A2QG_IA" name="Scanner">
+        <modelElement href="ejerciciosPractica.uml#_WmcTMLQ-Ee29d62A2QG_IA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YTsfYLQ-Ee29d62A2QG_IA" defaultValue="1" name="contador" staticAttribute="true">
+      <modelElement href="ejerciciosPractica.uml#_WmpukbQ-Ee29d62A2QG_IA"/>
+      <stereotypes xmi:id="_YTsfYbQ-Ee29d62A2QG_IA" name="LegacyStyledElement">
+        <modelElement href="ejerciciosPractica.uml#_Wmpuk7Q-Ee29d62A2QG_IA"/>
+      </stereotypes>
+      <visibility xmi:id="_YTsfYrQ-Ee29d62A2QG_IA" label="~"/>
+      <cardinality xmi:id="_YTsfY7Q-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <type xmi:id="_YTsfZLQ-Ee29d62A2QG_IA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YTsfZbQ-Ee29d62A2QG_IA" name="main" staticOperation="true">
+      <modelElement href="ejerciciosPractica.uml#_WlcNoLQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YTsfZrQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YTsfZ7Q-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YTsfaLQ-Ee29d62A2QG_IA" name="args">
+        <modelElement href="ejerciciosPractica.uml#_WlcNobQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YTsfabQ-Ee29d62A2QG_IA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_YTsfarQ-Ee29d62A2QG_IA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YTsfa7Q-Ee29d62A2QG_IA" name="registrarNum" staticOperation="true">
+      <modelElement href="ejerciciosPractica.uml#_WldbwbQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YTsfbLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YTsfbbQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YTsfbrQ-Ee29d62A2QG_IA" name="guardarNum" staticOperation="true">
+      <modelElement href="ejerciciosPractica.uml#_WleC0LQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YTsfb7Q-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YTsfcLQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YTsfcbQ-Ee29d62A2QG_IA" name="mostrarNum" staticOperation="true">
+      <modelElement href="ejerciciosPractica.uml#_WleC0bQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YTsfcrQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YTsfc7Q-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YTsfdLQ-Ee29d62A2QG_IA" name="numMax" staticOperation="true">
+      <modelElement href="ejerciciosPractica.uml#_Wlep4LQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YTsfdbQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YTsfdrQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YTsfd7Q-Ee29d62A2QG_IA" name="numMin" staticOperation="true">
+      <modelElement href="ejerciciosPractica.uml#_Wlep4bQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YTsfeLQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YTsfebQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YTsferQ-Ee29d62A2QG_IA" name="numImpares" staticOperation="true">
+      <modelElement href="ejerciciosPractica.uml#_WlfQ8LQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YTsfe7Q-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YTsffLQ-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YTsffbQ-Ee29d62A2QG_IA" name="promedio" staticOperation="true">
+      <modelElement href="ejerciciosPractica.uml#_WmjA4LQ-Ee29d62A2QG_IA"/>
+      <visibility xmi:id="_YTsffrQ-Ee29d62A2QG_IA" label="+"/>
+      <cardinality xmi:id="_YTsff7Q-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YTsfgLQ-Ee29d62A2QG_IA">
+        <modelElement href="ejerciciosPractica.uml#_WmjA4rQ-Ee29d62A2QG_IA"/>
+        <type xmi:id="_YTsfgbQ-Ee29d62A2QG_IA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YTsfgrQ-Ee29d62A2QG_IA" name="lista">
+        <modelElement href="ejerciciosPractica.uml#_WmjA4bQ-Ee29d62A2QG_IA"/>
+        <cardinality xmi:id="_YTsfg7Q-Ee29d62A2QG_IA" label="1" max="1" min="1"/>
+        <type xmi:id="_YTsfhLQ-Ee29d62A2QG_IA" name="ArrayList">
+          <modelElement href="ejerciciosPractica.uml#_WmbFELQ-Ee29d62A2QG_IA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
