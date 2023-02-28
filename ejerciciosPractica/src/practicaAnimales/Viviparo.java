@@ -10,6 +10,8 @@ public class Viviparo extends Animal{
 	
 	public Viviparo(int numExtremidades, String especie, String tipoAlimentacion, boolean esMamifero, String pelaje) {
 		super(numExtremidades,especie, tipoAlimentacion);
+		this.esMamifero = esMamifero;
+		this.pelaje = pelaje;
 	}
 	
 	/** @param ES MAMIFERO*/
@@ -34,7 +36,7 @@ public class Viviparo extends Animal{
 	
 	@Override
 	public void mostrarDatos() {
-		System.out.println("Numero de Extremidades: " + getNumExtremidades() + "\nEspecie: " + getEspecie() + "\nTipo de Alimentacion: " + getTipoAlimentacion() + "\nEs mamifero: " + esMamifero + "Tipo de pelaje: " + pelaje);
+		System.out.println("Numero de Extremidades: " + getNumExtremidades() + "\nEspecie: " + getEspecie() + "\nTipo de Alimentacion: " + getTipoAlimentacion() + "\nEs mamifero: " + esMamifero + "\nTipo de pelaje: " + pelaje);
 	}
 	
 	@Override
