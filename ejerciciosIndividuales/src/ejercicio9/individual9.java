@@ -88,14 +88,14 @@ public class individual9 {
 		}
 		// funcion para mostrar los numeros impares, el minimo, maximo y el promedio de éstos 
 		public static void displayNumerosImpares() {	
-			// loop para idetificar los numeros pares, y removerlos de la lista
+			// loop para identificar los numeros pares, y removerlos de la lista
 			for (int i = 0; i < paqueteNumeros.size(); i++) {
 				int elemento = paqueteNumeros.get(i);
 				if (elemento % 2 == 0) {
 					System.out.println(elemento + " es par");
 					paqueteNumeros.remove(i);
 					i--;
-					cantNumeros--; // se resta 1 al contador para vez que se saque un numero par, para que el promedio se calcule correctamente
+					cantNumeros--; // se resta 1 al contador cada vez que se saque un numero para que el promedio se calcule correctamente
 				}
 				else if(elemento %2 != 0) {
 					System.out.println(elemento + " es impar.");

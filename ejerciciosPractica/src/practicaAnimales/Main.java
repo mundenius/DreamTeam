@@ -38,6 +38,14 @@ public class Main {
 		Animal tigre = new Viviparo(5, "Felino", "Carnivoro", true, "pelos");
 		Animal pinguino = new Oviparo(5, "Ave", "Carnivoro", true, "nada y camina");
 		Animal lobo = new Viviparo(5, "Canino", "Carnivoro", true, "pelos");
+		
+		Animal perro = new Viviparo();
+		
+		perro.setNumExtremidades(5);
+		perro.setEspecie("canino");
+		perro.setTipoAlimentacion("omnivoro");
+		((Viviparo) perro).setPelaje("pelo");
+		((Viviparo) perro).setEsMamifero(true);
 
 		
 		/** se agregan los animales creados a la lista creada al principio */
