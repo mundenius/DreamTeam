@@ -47,7 +47,7 @@ public class BattleShips {
         }
 
         //seccion de abajo del mapa
-        System.out.print("  ");
+        System.out.print(" - ");
         for(int i = 0; i < numCols; i++)
             System.out.print(i);
         System.out.println();
@@ -93,7 +93,7 @@ public class BattleShips {
             {
                 if (grid[x][y] == "x") //if computer ship is already there; computer loses ship
                 {
-                    System.out.println("Boom! Le achutaste a un barco");
+                    System.out.println("Boom! Le achuntaste a un barco");
                     grid[x][y] = "!"; //Hit mark
                     --BattleShips.computerShips;
                 }

@@ -5,7 +5,7 @@ public class Viviparo extends Animal{
 	private String pelaje; 
 	
 	public Viviparo() {
-		
+		super();
 	}
 	
 	public Viviparo(int numExtremidades, String especie, String tipoAlimentacion, boolean esMamifero, String pelaje) {
