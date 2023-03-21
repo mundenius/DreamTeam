@@ -1,5 +1,5 @@
 DreamTeam ™
 
-Benjamín Palacios
-Valentina Saldías
-Mª Fernanda Zuñiga
+<b> Benjamín Palacios </b>
+<b> Valentina Saldías </b>
+Mª Fernanda Zuñiga 
