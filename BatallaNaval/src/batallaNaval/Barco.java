@@ -70,5 +70,9 @@ public class Barco implements Interfaz{
 	public String toString() {
 		return "Barco [vida=" + vida + ", armadura=" + armadura + ", x=" + x + ", y=" + y + ", orientacionBarco="
 				+ orientacionBarco + "]";
+	}
+
+	@Override
+	public void lanzarMisil() {
 	}	
 }
