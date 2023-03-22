@@ -13,13 +13,21 @@ public class Tablero {
 		String miss = "~";
 		String hit = "*";
 		
-		Utilidad.escribir("\n before"); //DEBUG
+		Utilidad.escribir("\n  ---- Bienvenido a Batalla Naval ---- \n"); //DEBUG
 		
-		for(int i = 0; i < Integer.parseInt(lado) ; i++) {
-			for(int j = 0; j < Integer.parseInt(lado) ; j++) {
-				matriz[i][j] = "-";
+		/** Genera la matriz */
+		for(int i = 0; i < Integer.parseInt(lado); i++) {
+			for(int j = 0; j < Integer.parseInt(lado); j++) {
+				matriz[i][j] = " - ";
 			}
 		}
-		Utilidad.escribir("\n after"); //DEBUG
+		 /** Pinta la matriz */
+		for (int i = 0; i < matriz.length; i++) {
+			  for (int j = 0; j < matriz[i].length; j++) {
+			    System.out.print(matriz[i][j] + "|");
+			  }
+			  System.out.println();
+			}
+//		Utilidad.escribir("\n after"); //DEBUG
 	}
 }
