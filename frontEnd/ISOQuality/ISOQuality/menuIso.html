@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
     <link rel="stylesheet" href="assets/style.css">
 
     <!--   Iconos de footer -->
@@ -31,7 +32,7 @@
         <div class="row">
             <div class="col">
                 <!-- Navbar -->
-                <nav class="navbar navbar-expand-lg center-text" id="navbar">
+                <nav class="navbar navbar-expand-lg center-text pb-3" id="navbar">
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -46,29 +47,33 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
-                                        <b>Proyectos y Postulaciones</b>
+                                        <b>Sistemas de Gestión</b>
                                     </a>
-                                    <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdown">
-                                        <li><a href="#" class="dropdown-item">SERCOTEC</a></li>
-                                        <li><a href="#" class="dropdown-item">CORFO</a></li>
+                                    <ul class="dropdown-menu dropdown-menu-start border-0"
+                                        aria-labelledby="navbarDropdown">
+                                        <li><a href="menuIso.html" class="dropdown-item">ISO 9001</a></li>
+                                        <li><a href="menuIso.html" class="dropdown-item">ISO 14001</a></li>
+                                        <li><a href="menuIso.html" class="dropdown-item">ISO 45001 (Antigua 18001)</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="menuIso.html" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <b>Sistemas de Gestión</b>
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <b>Proyectos y Postulaciones</b>
                                     </a>
-                                    <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdown">
-                                        <li><a href="#" class="dropdown-item">ISO 9001</a></li>
-                                        <li><a href="#" class="dropdown-item">ISO 14001</a></li>
-                                        <li><a href="#" class="dropdown-item">ISO 45001 (Antigua 18001)</a></li>
+                                    <ul class="dropdown-menu dropdown-menu-start border-0"
+                                        aria-labelledby="navbarDropdown">
+                                        <li><a href="sercotec.html" class="dropdown-item">SERCOTEC</a></li>
+                                        <li><a href="corfo.html" class="dropdown-item">CORFO</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link"> <b>Capacitaciones y Eventos</b></a>
+                                    <a href="serviciosycapacitaciones.html" class="nav-link"> <b>Capacitaciones y
+                                            Eventos</b></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link"> <b>Contacto</b></a>
+                                    <a href="contacto.html" class="nav-link"> <b>Contacto</b></a>
                                 </li>
                             </ul>
                             </ul>
@@ -78,131 +83,319 @@
             </div>
         </div>
 
-        <body>
-            <!--   Tarjetas-->
-            <div class="title-cards">
-                <h2>Implementación de Sistemas de Gestión</h2>
-                <div class="contenido-title-cards">
-                    <p>Hacemos una consultoría que se caracteriza por buscar la transferencia tecnológica en terreno,
-                        a través de capacitación, entrenamiento y asesoría técnica especializada, de esta forma,
-                        implementamos su Sistema de Gestión Integrado, generando los cambios requeridos, adecuándolos a
-                        las necesidades de la dirección.</p>
+
+        <!--   Tarjetas-->
+        <div class="row">
+
+
+            <h2 class="text-center"><small>Implementación de Sistemas de Gestión</small></h2>
+            <div class="col-1"></div>
+            <div class="col-10">
+                <br>
+                <br>
+                <p class="lead text-justify">Hacemos una consultoría que se caracteriza por buscar la transferencia
+                    tecnológica en terreno,
+                    a través de capacitación, entrenamiento y asesoría técnica especializada, de esta forma,
+                    implementamos su Sistema de Gestión Integrado, generando los cambios requeridos, adecuándolos a
+                    las necesidades de la dirección.</p>
+                <br>
+                <br>
+                <div class="col text-center">
+                    <a type="button" class="btn btn-primary btn-lg btn-block" href="contacto.html">Evaluacion
+                        Gratuita</a>
+                </div>
+                <br>
+
+            </div>
+            <div class="col-1"></div>
+        </div>
+
+        <div class="container-card">
+
+            <div id="tarjetasIso" class="card">
+                <figure>
+                    <a href="#!" data-toggle="modal" data-target="#myModalv1">
+                        <img src="assets/img/iso/iso9001.png" id="iso9001">
+                    </a>
+
+                </figure>
+                <div class="contenido-card">
+                    <h3>ISO 9001:2015</h3>
+                    <p>La norma Internacional ISO 9001 está enfocada a la consecución de la calidad en una
+                        organización
+
                 </div>
             </div>
 
-            <div class="container-card">
-
-                <div class="card">
-                    <figure>
-                        <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ9DMNFHxwZcfPXJrJeBMITxPMP3FMZk_ixXzTfzt4G_C-G058">
-                    </figure>
-                    <div class="contenido-card">
-                        <h3>La adopción de un Enfoque basado en Procesos</h3>
-                        <p>Le ayudamos a definir la secuencia e interacción de sus procesos,
-                            establecer los responsables de cada actividad, a documentarlos en procedimientos y
-                            protocolos de trabajo, para luego evaluar la eficacia y eficiencia.</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Leer
-                            Más</button>
-
-                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="assets/img/logo-rectangulo.png" class="img-responsive">
-                                    </div>
-                                </div>
-                            </div>
+            <!-- Modal ventaja iso 9001 -->
+            <div class="modal fullscreen-modal fade" id="myModalv1" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabelv1">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Ventajas ISO 9001:2015</h4>
+                            <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"
+                                style="font-size: 40px;"><span aria-hidden="true">&times;</span></button>
                         </div>
-                    </div>
-                </div>
 
-
-                <div class="card">
-                    <figure>
-                        <img
-                            src="https://colmayorbolivar.edu.co/blog/wp-content/uploads/2017/06/imagen-administracion.jpg">
-                    </figure>
-                    <div class="contenido-card">
-                        <h3>La incorporación del Análisis del Contexto de la Organización</h3>
-                        <p>Mediante Talleres, le asesoramos en el análisis del Contexto de la Organización,
-                            tanto interno como externo</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Leer
-                            Más</button>
-
-                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="assets/img/logo-rectangulo.png" class="img-responsive">
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="modal-body">
+                            <figure>
+                                <img src="assets/img/iso/1.jpg" id="1" class="img-fluid">
+                            </figure>
                         </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img
-                            src="https://image.freepik.com/foto-gratis/desarrollo-programadores-desarrollo-tecnologias-diseno-codificacion-sitios-web_18497-1090.jpg">
-                    </figure>
-                    <div class="contenido-card">
-                        <h3>Detección temprana de los Riesgos de la Organización</h3>
-                        <p>El éxito de la gestión de riesgos depende, en parte, de una identificación temprana de las
-                            amenazas
-                            que ponen en peligro las acciones que constituyen los procesos o las oportunidades que se
-                            deben aprovechar.</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Leer
-                            Más</button>
 
-                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="assets/img/logo-rectangulo.png" class="img-responsive">
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+                            <a type="button" class="btn btn-primary" href="contacto.html">Evaluacion Gratuita</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="container-fluid">
-                <footer class="text-center text-white" id="footer">
-                    <!-- Grid container -->
-                    <div class="container p-3 pb-0">
-                        <!-- Section: Social media -->
-                        <section class="mb-4">
+            <div id="tarjetasIso" class="card">
+                <figure>
+                    <a href="#!" data-toggle="modal" data-target="#myModalv2">
+                        <img src="assets/img/iso/iso14001.png" id="iso14001">
+                    </a>
 
-                            <!-- Google -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                                style="background-color: #DB4437;">
-                                <i class="fab fa-google"></i>
-                            </a>
-
-                            <!-- LinkedIn -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                                style="background-color: #0077B5;">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-
-                        </section>
-                        <!-- Section: Social media -->
-                    </div>
-                    <!-- Grid container -->
-
-                    <!-- Copyright -->
-                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                        © 2023 Copyright:
-                        <a class="text-white" href="https://mdbootstrap.com/">ISO Quality</a>
-                    </div>
-                    <!-- Copyright -->
-                </footer>
+                </figure>
+                <div class="contenido-card">
+                    <h3>ISO 14001:2015</h3>
+                    <p>La norma Internacional ISO 14001 establece herramientas y sistemas enfocados a los procesos
+                        de producción al interior de una empresa
+                        u organización, y de los efectos o externalidades que de estos deriven al medio ambiente</p>
+                </div>
             </div>
+
+            <!-- Modal ventaja iso 14001 -->
+            <div class="modal fullscreen-modal fade" id="myModalv2" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabelv2">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Ventajas ISO 14001:2015</h4>
+                            <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"
+                                style="font-size: 40px;"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body modal-body-centered">
+                            <figure>
+                                <img src="assets/img/iso/2.jpg" id="2" class="img-fluid">
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+                            <a type="button" class="btn btn-primary" href="contacto.html">Evaluacion
+                                Gratuita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="tarjetasIso" class="card">
+                <figure>
+                    <a href="#!" data-toggle="modal" data-target="#myModalv3">
+                        <img src="assets/img/iso/iso45001.png" id="iso45001">
+                    </a>
+
+                </figure>
+                <div class="contenido-card">
+                    <h3>ISO 45001:2018</h3>
+                    <p>La norma Internacional ISO 45001 (ex ISO 18001) es la nueva norma internacional para la gestión
+                        de la seguridad y Salud en el trabajo (SG-SST)
+                        es la encargada de la gestión de los riesgos y oportunidades en la prevención de las lesiones y
+                        los problemas de salud en el trabajo</p>
+
+                </div>
+            </div>
+            <!-- Modal ventaja iso 45001 -->
+            <div class="modal fullscreen-modal fade" id="myModalv3" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabelv3">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Ventajas ISO 45001:2018</h4>
+                            <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"
+                                style="font-size: 40px;"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <img src="assets/img/iso/3.jpg" id="3" class="img-fluid">
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+                            <a type="button" class="btn btn-primary" href="contacto.html">Evaluacion
+                                Gratuita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-card">
+
+            <div id="tarjetasIso" class="card">
+                <figure>
+                    <a href="#!" data-toggle="modal" data-target="#myModal1">
+                        <img src="assets/img/iso/Iso1.jpg" id="iso1">
+                    </a>
+                </figure>
+                <div class="contenido-card">
+                    <h3>Adopción de un Enfoque basado en Procesos</h3>
+                    <p>Nuestra asesoría le ayuda a definir la secuencia e interacción de sus procesos,
+                        establecer los responsables de cada actividad, para
+                        luego evaluar la eficacia y eficiencia de sus operaciones y de sus procesos.</p>
+                </div>
+            </div>
+            <!-- Modal Adopcion de Procesos -->
+            <div class="modal fullscreen-modal fade" id="myModal1" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabel1">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Adopción de un Enfoque basado en Procesos</h4>
+                            <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"
+                                style="font-size: 40px;"><span aria-hidden="true">&times;</span></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <figure>
+                                <img src="assets/img/iso/Iso1.jpg" id="Iso1" class="img-fluid">
+                            </figure>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+                            <a type="button" class="btn btn-primary" href="contacto.html">Evaluacion Gratuita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="tarjetasIso" class="card">
+                <figure>
+                    <a href="#!" data-toggle="modal" data-target="#myModal2">
+                        <img src="assets/img/iso/Iso2.jpg" id="iso2">
+                    </a>
+                </figure>
+                <div class="contenido-card">
+
+                    <h3>Incorporación del Análisis del Contexto de la Organización</h3>
+                    <br>
+                    <p>Mediante Talleres, le asesoramos en el análisis del Contexto de la Organización,
+                        tanto interno como externo</p>
+
+
+                </div>
+            </div>
+
+            <!-- Modal Contexto de la Organizacion -->
+            <div class="modal fullscreen-modal fade" id="myModal2" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabel2">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Incorporación del Análisis del Contexto de la
+                                Organización</h4>
+                            <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"
+                                style="font-size: 40px;"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body modal-body-centered">
+                            <figure>
+                                <img src="assets/img/iso/Iso2.jpg" id="Iso2" class="img-fluid">
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+                            <a type="button" class="btn btn-primary" href="contacto.html">Evaluacion
+                                Gratuita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tarjetasIso" class="card">
+                <figure>
+                    <a href="#!" data-toggle="modal" data-target="#myModal3">
+                        <img src="assets/img/iso/Iso3.jpg" id="iso3">
+                    </a>
+
+                </figure>
+                <div class="contenido-card">
+                    <h3>Detección temprana de los Riesgos de la Organización</h3>
+                    <p>El éxito de la gestión de riesgos depende, en parte, de una identificación
+                        temprana de las amenazas
+                        que ponen en peligro las acciones que constituyen los procesos o las
+                        oportunidades que se deben aprovechar.</p>
+                </div>
+            </div>
+
+            <!-- Modal Riesgos de la Organización -->
+            <div class="modal fullscreen-modal fade" id="myModal3" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabel3">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Detección temprana de los Riesgos de la
+                                Organización</h4>
+                            <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"
+                                style="font-size: 40px;"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <img src="assets/img/iso/Iso3.jpg" id="Iso3" class="img-fluid">
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+                            <a type="button" class="btn btn-primary" href="contacto.html">Evaluacion
+                                Gratuita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+        <div class="col text-center">
+            <a type="button" class="btn btn-primary" href="contacto.html">Evaluacion
+                Gratuita</a>
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid pt-2 px-3">
+        <footer class="text-center bg-transparent" id="footer">
+            <div class="text-center pt-3 pb-3">
+              <div class="row">
+                <div class="col-sm-3 order-first order-md-first">
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-envelope me-2"></i>
+                    <p class="mb-0 text-sm">clientes@isoquality.cl</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-phone me-2"></i>
+                    <p class="mb-0 text-sm">+56 9 9733 3032</p>
+                  </div>
+                </div>
+                <div class="col-sm-9 order-last order-md-last pt-3">
+                  <div class="d-flex flex-column flex-md-row justify-content-end align-items-center ">
+                    <a class="btn me-2 text-sm text-md text-truncate" href="logrosyclientes.html" role="button">Logros</a>
+                    <a class="btn me-2 text-sm text-md text-truncate" href="logrosyclientes.html" role="button">Clientes</a>
+                    <a class="btn me-2 text-sm text-md text-truncate" href="quienessomos.html" role="button">Quiénes
+                      Somos</a>
+                    <a class="btn me-2 text-sm text-md" href="contacto.html" role="button">Contacto</a>
+                    <p class="mb-0 text-sm text-md text-truncate">© 2023 ISO Quality</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+    </div>
     </div>
     <script src="assets/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
@@ -211,7 +404,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
         integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
         crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 

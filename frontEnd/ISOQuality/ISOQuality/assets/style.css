@@ -1,5 +1,56 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.letter-spacing-2 {
+  letter-spacing: 2px; 
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.font-weight-bold {
+  font-weight:bold;
+}
+
+/* Animacion fade in */
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }
+}
+
+/* Navbar */
+
+/* Separar los elementos del navbar */
+.navbar-nav .nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight:200;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.dropdown-menu {
+  padding: 0.5rem;
+}
+
+.dropdown-item {
+  font-size: 17px;
 }
 
 /* Galeria Destacados */
@@ -19,12 +70,6 @@ body {
   display: flex;
 }
 
-.col-md-4 {
-  padding-right: 5.5px !important;
-  padding-left: 5.5px !important;
-  flex-grow: 1;
-}
-
 .slide {
   width: 100%;
   height: auto;
@@ -37,11 +82,18 @@ body {
 }
 
 .banner2 {
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 .banner5 {
   margin-top: 2%;
+}
+
+#left-column .image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 #index .image-container {
@@ -49,10 +101,12 @@ body {
   overflow: hidden;
   width: 100%;
   height: 100%;
+  
 }
 
 #index .image-container img {
   transition: transform 0.2s ease;
+  
 }
 
 .overlap-container {
@@ -72,6 +126,108 @@ body {
 }
 
 /*Cards*/
+
+#tarjetasDaniel.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.card .card_landing {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient(transparent 80%, #000), var(--i);
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+}
+
+.card .card_landing h6 {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.card .card_info {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 5px;
+    background: #fff;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+letter-spacing: 0px;
+}
+
+.card:hover .card_info {
+    left: 100%;
+}
+
+.card_info .head {
+    padding: 5px 0;
+    border-bottom: solid 1px #bc8811;
+}
+
+.card_info .head .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #bc8811;
+}
+
+.card_info .head .description {
+    display: flex;
+    gap: 5px;
+}
+
+.card_info .head .description .item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card_info .head .description .item i {
+    color: #bc8811;
+    font-size: 15px;
+}
+
+.card_info .head .description .item p {
+    font-size: 13px;
+}
+
+.card_info .content {
+    margin-top: 15px;
+}
+
+.card_info .content .list {
+    padding: 10px 15px;
+}
+
+.card_info .content .list li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card_info .action .btn {
+    padding: 5px;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #bc8811;
+    display: block;
+    margin-top: 5px;
+}
+
 .container-card {
   width: 100%;
   display: flex;
@@ -89,7 +245,7 @@ body {
   color: #7a7a7a;
 }
 
-.card {
+#tarjetasIso.card {
   width: 100%;
   margin: 20px;
   border-radius: 6px;
@@ -208,9 +364,39 @@ body {
   background-color: #45a049;
 }
 
+/*
+Full screen Modal 
+*/
+.fullscreen-modal .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #7a7a7a;
+}
+
+@media (min-width: 768px) {
+  .fullscreen-modal .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .fullscreen-modal .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .fullscreen-modal .modal-dialog {
+     width: 1170px;
+  }
+}
+
 /* Estilos para las imágenes */
-
-
 
 #logoS {
   width: 90px;
@@ -275,4 +461,70 @@ body {
   .card {
     margin: 15px;
   }
+  
+  #ventana {
+    display: none;
+  } 
+
 }
+
+/* Estilo Logos Clientes */
+
+.image-container .clientes-logos {
+  max-height: auto;
+  max-width: 100%
+}
+
+.img-fluid .logos {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Estilo Logros */
+
+.rectangle#logros-1 {
+  background-color: rgba(66,13,255, 0.3);
+  border-radius: 3px;
+}
+
+.square#logros-2{
+background-color: rgba(100, 100, 100, 0.3);
+border-radius: 3px;
+}
+
+.square#logros-3{
+  background-color: rgba(255,133,31,0.3);
+  border-radius: 3px;
+}
+
+.rectangle#logros-4 {
+  background-color: rgba(115,255,194,0.3);
+  border-radius: 3px;
+}
+
+.rectangle#logros-5{
+  background-color: rgba(40, 212, 55, 0.3);
+  border-radius: 3px;
+}
+
+.rectangle#logros-6{
+  background-color: rgba(212,15,146,0.3);
+  border-radius: 3px;
+}
+
+/* Footer */
+
+#footer {
+  opacity: 0.8;
+}
+
+#footer a.btn {
+  color: rgba(0, 0, 0, 0.9);
+  transition: color 0.2s ease;
+}
+
+#footer a.btn:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
