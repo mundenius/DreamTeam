@@ -537,3 +537,14 @@ border-radius: 3px;
   color: rgba(0, 0, 0, 0.6);
 }
 
+/* Media Queries */
+@media (min-width: 768px){
+  .col-md-6{
+    width: auto;
+  }
+  .text-sm {
+  font-size: 12px; /* Ajusta el tamaño de fuente según tus necesidades */
+  line-height: 12px; /* Ajusta la altura de línea según tus necesidades */
+}
+}
+
