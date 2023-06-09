@@ -1,5 +1,7 @@
 package batallaNaval;
 import java.util.Scanner;
+/**@author Benjamin Palacios, Valentina Saldias, Fernanda Zuñiga */
+/** @version 21/03/23*/
 
 public class Utilidad {
 	public static String escribir(String mensaje) {

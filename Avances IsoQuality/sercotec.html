@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISO Quality</title>
+  <!-- Etiquetas de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<style>.card-semilla {
+	background-image: url('assets/img/seed.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-abeja {
+	background-image: url('assets/img/abeja.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#logoS {
+	width: 90px;
+	height: 90px;
+  }
+#logoA {
+	width: 90px;
+	height: 90px;
+  }
+  .image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 70px;
+  }
+</style>
+<body>
+  <div class="container-fluid">
+    <!-- HEADER: Logo y Nombre Empresa -->
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-10">
+        <header class="opacity-85">
+          <img src="assets/img/logo-rectangulo.png" id="logo-header" class="img-fluid">
+        </header>
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg center-text" id="navbar">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link"><b>Inicio</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <b>Proyectos y Postulaciones</b>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdown">
+                    <li><a href="sercotec.html" class="dropdown-item">SERCOTEC</a></li>
+                    <li><a href="#" class="dropdown-item">CORFO</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="menuIso.html" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <b>Sistemas de Gestión</b>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdown">
+                    <li><a href="#" class="dropdown-item">ISO 9001</a></li>
+                    <li><a href="#" class="dropdown-item">ISO 14001</a></li>
+                    <li><a href="#" class="dropdown-item">ISO 45001 (Antigua 18001)</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="serviciosycapacitaciones.html" class="nav-link"> <b>Capacitaciones y Eventos</b></a>
+                </li>
+                <li class="nav-item">
+                  <a href="contacto.html" class="nav-link"> <b>Contacto</b></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <section class="mb-6 mb-lg-10">
+      <div class="row gx-md-5">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-10 mx-auto">
+          <div class="container card-info text-dark">
+            <div class="card-header pt-4">
+              <h3 class="mb-4">
+                Asesoramiento y Acompañamiento en la Obtención de Fondos Públicos
+              </h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <br>
+                Asesoramos y acompañamos en el proceso de postulación a micro, pequeñas y medianas empresas que están
+                interesadas mediante la Formulación de Proyectos para la obtención de fondos públicos de fomento
+                productivo en Chile.<br><br> Nuestro equipo de expertos en gestión y financiamiento está comprometido en
+                ayudar a tu empresa a acceder a las oportunidades de financiamiento disponibles, brindándote el apoyo
+                necesario para maximizar tus posibilidades de éxito.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-10 mx-auto">
+          <div class="card card-semilla text-white">
+            <div class="card-header text-center pt-4">
+              <img class="aligncenter" id="logoS" src="assets/img/icono_web_semilla.png" alt="Logo Semilla">
+              <p class="text-uppercase">
+                <strong>Semilla</strong>
+              </p>
+              <h3 class="mb-4">
+                <strong>Capital Semilla Emprende</strong>
+              </h3>
+              <button type="button" class="btn btn-outline-primary btn-rounded w-100 mb-3">
+                Saber más
+              </button>
+            </div>
+            <div class="card-body">
+              <ol class="list-unstyled mb-0">
+                <li class="mb-3">
+                  <i class="fas fa-info-circle text-primary me-3"></i>Es un fondo concursable de Sercotec que promueve
+                  la creación de nuevos negocios
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-info-circle text-primary me-3"></i>Entrega un subsidio de $3,5 millones para
+                  concretar las actividades detalladas en el plan de trabajo
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-info-circle text-primary me-3"></i>Emprendedores y emprendedoras, mayores de edad
+                  (igual o mayor a 18 años), sin inicio de actividades en primera categoría ante el Servicio de
+                  Impuestos Internos
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-10 mx-auto">
+          <div class="card card-abeja text-white">
+            <div class="card-header text-center pt-4">
+              <img class="aligncenter" id="logoA" src="assets/img/icono_web_abeja.png" alt="Logo Abeja">
+              <p class="text-uppercase">
+                <strong>Abeja</strong>
+              </p>
+              <h3 class="mb-4">
+                <strong>Capital Abeja Emprende</strong>
+              </h3>
+              <button type="button" class="btn btn-outline-warning btn-rounded w-100 mb-3">
+                Saber más
+              </button>
+            </div>
+            <div class="card-body">
+              <ol class="list-unstyled mb-0">
+                <li class="mb-3">
+                  <i class="fas fa-info-circle text-warning me-3"></i>Es un fondo concursable de Sercotec que promueve
+                  la creación de nuevos negocios liderados por mujeres
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-info-circle text-warning me-3"></i>Entrega un subsidio de $3,5 millones para
+                  concretar las actividades detalladas en el plan de trabajo
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-info-circle text-warning me-3"></i>Emprendedoras, mayores de edad (igual o mayor a 18
+                  años), sin inicio de actividades en primera categoría ante el Servicio de Impuestos Internos
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">ISO Quality</h5>
+            <p>
+              Somos una empresa especializada en sistemas de gestión de calidad. Nuestro objetivo es ayudar a las
+              organizaciones a alcanzar la excelencia y mejorar su desempeño a través de la implementación de normas
+              internacionales.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contacto</h5>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fas fa-envelope me-2"></i>
+                clientes@isoquality.cl
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                +1 (123) 456-7890
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt me-2"></i>
+                123 Calle Principal, Ciudad, País
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 ISO Quality. Todos los derechos reservados.
+      </div>
+    </footer>
+  </div>
+
+  <!-- Etiquetas de Bootstrap -->
+  <script src="assets/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
